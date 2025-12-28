@@ -48,7 +48,7 @@ test:
     - hypothesis
     - pytest-benchmark
     - psutil
-    - libblas=*=*mkl   # [x86_64]
+    - libblas * *mkl   # [x86_64]
   source_files:
     - pytest.ini
     - conftest.py
